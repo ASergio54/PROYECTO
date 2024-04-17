@@ -2,7 +2,7 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Message from "./message";
 import Header from "./header";
-import Main from "./main";
+import Main from "./main.js";
 import Aside from "./aside";
 import Footer from "./footer";
 
