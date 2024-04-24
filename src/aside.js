@@ -5,11 +5,11 @@ const Aside = () =>{
             <div className="form-group row">
                 <div className="col-6">
                     <label for="">Nombre</label>
-                    <input type="text" className="form-control" placeholder="Valentin"></input>
+                    <input type="text" className="form-control" placeholder="Sergio"></input>
                 </div>
                 <div className="col-6">
                     <label for="">Apellido</label>
-                    <input type="text" className="form-control" placeholder="Fernandez"></input>
+                    <input type="text" className="form-control" placeholder="Requejo"></input>
                 </div>
             </div>
             <br></br>

@@ -1,18 +1,18 @@
 const Main = () =>{
     return <main className="col-md-8">
         <div>
-            <h1 className="d-flex justify-content-center">¡Descubre la revolución en limpieza con nuestra nueva publicación de productos de limpieza!</h1>
+            <h1 className="d-flex justify-content-center">¡Descubre el mejor sabor en tus paladares, en el mejor local de hamburguesas!</h1>
 
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://unilimpio.com/static/a3929000b57b1d0cf3e20104bd5507a0/b7dec/productos-de-limpieza-para-tu-hogar.webp" className="d-block w-100" alt="..."></img>
+                        <img src="https://static.vecteezy.com/system/resources/previews/004/806/564/non_2x/drawing-of-hamburger-with-cheese-tomatoes-chop-lettuce-onion-cucumber-in-flat-cartoon-style-illustration-for-design-fast-food-menu-hamburger-isolated-icons-vector.jpg" className="d-block w-100" alt="..."></img>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://www.cien.adexperu.org.pe/wp-content/uploads/2023/10/productos-limpieza-basicos-1.jpg" className="d-block w-100" alt="..."></img>
+                        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/26/15511968658125.jpg" className="d-block w-100" alt="..."></img>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://s3.ppllstatics.com/laverdad/www/multimedia/2023/03/15/productos-limpieza-toxicos-peligrosos-ocu-ksTE-U1909178767610w-1200x840@La%20Verdad.jpg" className="d-block w-100" alt="..."></img>
+                        <img src="https://elcomercio.pe/resizer/ri1EQ0I5WEp8A-iFtVXIzQAR9dg=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/476VPZOYBNDHLIXAWE6XYC7ORY.png" className="d-block w-100" alt="..."></img>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
