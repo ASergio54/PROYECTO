@@ -20,6 +20,6 @@ root.render(
         <div className="bg-info">
             <Footer></Footer>
         </div>
-
+        <p><i data-feather="instagram"></i> <a class="link-opacity-100" href="https://help.instagram.com/581066165581870">Instagram</a></p>
     </StrictMode>
 );
