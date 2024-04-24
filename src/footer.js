@@ -1,13 +1,19 @@
 const Footer = () =>{
-    return <footer className="py-4">
-        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Instagram</a></li>
-                
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Tiktok</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Facebook</a></li>
-        </ul>
-        <p className="text-center text-muted">© 2024 UPAO - INTERACCION HOMBRE MAQUINA</p>
-    </footer>
+    return <footer>
+    <div class="container text-center">
+        <div class="row align-items-end">
+        <div class="col">
+        <p><i data-feather="instagram"></i> <a class="link-opacity-100" href="https://www.instagram.com/smashboy.pe/">Instagram</a></p>
+    </div>
+    <div class="col">
+        <div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">Proyecto realizado por Requejo Reategui Sergio</div>
+    </div>
+    <div class="col">
+        <p><i data-feather="facebook"></i> <a class="link-opacity-100" href="https://www.facebook.com/hamburgueseria.gorys?locale=es_LA">Facebook</a></p>
+    </div>
+    </div>
+</div>
+    </footer>;
 }
 
 export default Footer;
