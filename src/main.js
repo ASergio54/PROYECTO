@@ -6,7 +6,7 @@ const Main = () =>{
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://static.vecteezy.com/system/resources/previews/004/806/564/non_2x/drawing-of-hamburger-with-cheese-tomatoes-chop-lettuce-onion-cucumber-in-flat-cartoon-style-illustration-for-design-fast-food-menu-hamburger-isolated-icons-vector.jpg" className="d-block w-100" alt="..."></img>
+                        <img src="https://pronacatqma.com/images/com_yoorecipe/banner_superior/18096_1.jpg" className="d-block w-100" alt="..."></img>
                     </div>
                     <div className="carousel-item">
                         <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/26/15511968658125.jpg" className="d-block w-100" alt="..."></img>

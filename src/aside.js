@@ -15,17 +15,17 @@ const Aside = () =>{
             <br></br>
             <div class="form-group">
                     <label for="">Correo</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@test.com" required></input>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required></input>
                 </div>
                 <br></br>
                 <div class="form-group">
                     <label for="">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"></input>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=""></input>
                 </div>
                 <br></br>
                 <div class="form-group">
                     <label for="">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aqui"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
                 </div>
                 <br></br>
                 <button type="submit" class="btn btn-primary">Enviar</button>
