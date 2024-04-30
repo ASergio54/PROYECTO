@@ -1,7 +1,7 @@
 const Main = () =>{
     return <main className="col-md-8">
         <div>
-            <h1 className="d-flex justify-content-center">¡Descubre el mejor sabor en tus paladares, en el mejor local de hamburguesas!</h1>
+            <h1 className="d-flex justify-content-center">¡Descubre el mejor sabor que probará tu paladar en el mejor local de hamburguesas!</h1>
 
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
@@ -35,14 +35,11 @@ const Main = () =>{
                     <li>
                         <p><strong>Muchos tipos de hamrbuguesas:</strong> Desde la hamburguesa simple, royale, cheese y hasta dobles.</p>
                     </li>
-                    <li>
-                        <p><strong>Calidad superior:</strong> Nuestras hamburguesas están hechas por una carne muy bien procesada y de la mejor calidad, Los panes más frescos para ser ofrecidos a los clientes.</p>
-                    </li>
+                    
                     <li>
                         <p><strong>Sabor certificado:</strong> Muchos clientes nos han dejado una buena recomendación por nuestro buen sabor y calidad de hamburguesa.</p>
                     </li>
                 </ul>
-                <p>No pierdas más tiempo y únete a la legión de clientes satisfechos que confían en nuestra publicación de productos de limpieza. ¡Haz de la limpieza una tarea fácil y disfruta de un espacio impecable en todo momento!</p>
             </div>
         </div>
     </main>
