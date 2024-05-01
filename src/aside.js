@@ -1,15 +1,15 @@
 const Aside = () =>{
-    return <aside className="col-md-4">
-        <h1 className="d-flex justify-content-center">CONTACTAR</h1>
+    return <aside className="col-8">
+        <h1 className="d-flex justify-content-center">CONTÁCTANOS</h1>
         <form>
             <div className="form-group row">
                 <div className="col-6">
                     <label for="">Nombre</label>
-                    <input type="text" className="form-control" placeholder="Sergio"></input>
+                    <input type="text" className="form-control" placeholder="SERGIO"></input>
                 </div>
                 <div className="col-6">
                     <label for="">Apellido</label>
-                    <input type="text" className="form-control" placeholder="Requejo"></input>
+                    <input type="text" className="form-control" placeholder="REQUEJO"></input>
                 </div>
             </div>
             <br></br>
@@ -25,7 +25,7 @@ const Aside = () =>{
                 <br></br>
                 <div class="form-group">
                     <label for="">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aqui"></textarea>
                 </div>
                 <br></br>
                 <button type="submit" class="btn btn-primary">Enviar</button>

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Producto-1",
+        "slug": "producto-1",
+        "description": "Descripcion del producto 1",
+        "picture": "https://i.pinimg.com/564x/1b/f9/f9/1bf9f909ecceb79c29284794c2d74217.jpg"
+    },
+    {
+        "name": "Producto 2",
+        "slug": "producto-2",
+        "description": "Descripcion del producto 2",
+        "picture": "https://i.pinimg.com/564x/92/a5/eb/92a5eb6d18bef810abe3679f56cf5389.jpg"
+    },
+    {
+        "name": "Producto 3",
+        "slug": "producto-3",
+        "description": "Descripcion del producto 3",
+        "picture": "https://i.pinimg.com/564x/b5/34/b1/b534b1de0916dac5ace314d999ad5fb2.jpg"
+    }
+]
