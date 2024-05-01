@@ -14,7 +14,7 @@ const Main = () => {
         <Container className="col-8">
             <Row className="justify-content-center">
                 <Col>
-                    <h1 className="text-center">¡Descubre la revolución en limpieza con nuestra nueva publicación de productos de limpieza!</h1>
+                    <h1 className="text-center">¡Descubre el mejor sabor directo a tu paladar en el mejor local!</h1>
                     
                     <Carousel>
                         {
@@ -34,20 +34,17 @@ const Main = () => {
                     </Carousel>
 
                     <div className="py-4">
-                        <p>En un mundo donde la limpieza es esencial, nosotros te ofrecemos una solución completa y eficaz para mantener tu hogar, oficina o cualquier espacio impecable y reluciente.</p>
+                        <p>En un mundo donde las hamburguesas están tareas, te ofrecemos el mejor sabor para toda la familia.</p>
                         <p>¿Qué te ofrecemos?</p>
                         <ul>
                             <li>
-                                <strong>Variedad de productos:</strong> Desde desinfectantes hasta detergentes, pasando por limpiadores multiusos, nuestra publicación tiene todo lo que necesitas para abordar cualquier tarea de limpieza.
+                                <strong>Variedad de sabores:</strong> Desde los sabores tradicionales hasta colaboraciones con las mejores series.
                             </li>
                             <li>
-                                <strong>Calidad superior:</strong> Nuestros productos están formulados con ingredientes de primera calidad que garantizan resultados excepcionales sin comprometer la seguridad ni el medio ambiente.
+                                <strong>Calidad superior:</strong> La hamburguesa de mayor calidad con los productos de mayor calidad.
                             </li>
-                            <li>
-                                <strong>Eficiencia probada:</strong> Con años de experiencia en el mercado, nuestros productos han demostrado su eficacia en numerosos hogares y establecimientos comerciales. ¡Confía en lo probado y verdadero!
-                            </li>
+                            
                         </ul>
-                        <p>No pierdas más tiempo y únete a la legión de clientes satisfechos que confían en nuestra publicación de productos de limpieza. ¡Haz de la limpieza una tarea fácil y disfruta de un espacio impecable en todo momento!</p>
                     </div>
                 </Col>
             </Row>
