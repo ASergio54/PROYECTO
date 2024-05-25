@@ -1,3 +1,38 @@
-* {
-    
+body {
+    background-color: #ee8b2e;
+}
+
+.custom-header {
+    background-color: #3b3b3b;
+  }
+  
+  .feather-icon-custom {
+    color: #e6110a;
+  }
+  
+  .nav-link-custom {
+    color: #e6110a !important;
+  }
+
+  .text-e6110a {
+    color: #e6110a;
+  }
+  
+  .btn-e6110a {
+    background-color: #e6110a;
+    border-color: #e6110a;
+    color: white; /* Asegúrate de que el texto sea visible */
+  }
+  
+  .btn-e6110a:hover {
+    background-color: darken(#e6110a, 10%); /* Opcional: un color más oscuro al pasar el mouse */
+    border-color: darken(#e6110a, 10%);
+  }
+  
+  .footer-custom {
+    background-color: #3b3b3b;
+}
+
+.text-white {
+  color: #f8f8f8;
 }

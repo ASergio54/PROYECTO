@@ -7,16 +7,18 @@ const Basic = () => {
     return (
         <>
             <StrictMode>
-                <Header />
-                <div className="container">
-                    <div className="row py-5">
+                <Header></Header>
+                <div className="">
+                    <div className="row">
                         <Outlet></Outlet>
                     </div>
                 </div>
-                <Footer />
+                <div className="bg-info">
+                    <Footer></Footer>
+                </div>
             </StrictMode>
         </>
-    );
+    )
 }
 
 export default Basic;

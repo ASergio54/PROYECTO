@@ -1,7 +1,7 @@
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import Productos from './data/productos.json'
 import { useNavigate } from 'react-router-dom';
-
+import './style.css';
 
 const Main = () => {
     const navigate = useNavigate();
@@ -11,41 +11,40 @@ const Main = () => {
     }
 
     return (
-        <Container className="col-8">
+        <Container className="col-8 text-white">
             <Row className="justify-content-center">
                 <Col>
-                    <h1 className="text-center">¡Descubre el mejor sabor directo a tu paladar en el mejor local!</h1>
+                <h1 className="text-center text-e6110a">Bienvenido a Burguer Factory</h1>
+                <div className="text-center">
+                        <img src="https://us.123rf.com/450wm/angelp/angelp1610/angelp161000138/63952894-hamburguesa-icono-fondo-naranja-con-negro-ilustración-del-vector.jpg" alt="Il Forno Magico" style={{ width: '450px', height: '450px' }} />
+                    </div>
                     
                     <Carousel>
-                        {
-                                Productos.map(it => {
-                                return (<Carousel.Item onClick={(e) => {
-                                    e.preventDefault(); handleClick(it.slug)
-                                }}>
-                                    <img className="d-block w-100" src={it.picture}></img>
-                                    <Carousel.Caption>
-                                        <h3>{it.name}</h3>
-                                        <p>{it.description}</p>
-                                    </Carousel.Caption>
-
-                                </Carousel.Item>);
-                            })
-                        }
+                        {Productos.map(it => (
+                            <Carousel.Item onClick={(e) => {
+                                e.preventDefault(); handleClick(it.slug)
+                            }}>
+                                <img className="d-block w-100" src={it.picture} alt={it.name} />
+                                <Carousel.Caption>
+                                    <h3>{it.name}</h3>
+                                    <p>{it.description}</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        ))}
                     </Carousel>
 
                     <div className="py-4">
-                        <p>En un mundo donde las hamburguesas están tareas, te ofrecemos el mejor sabor para toda la familia.</p>
-                        <p>¿Qué te ofrecemos?</p>
-                        <ul>
+                        <p>¡¡Bienvenid@s a BURGER FACTORY! Donde la pasión por las hamburguesas se convierte en una experiencia inolvidable. Nos enorgullecemos de ofrecerte las mejores hamburguesas artesanales, preparadas con ingredientes frescos y de la más alta calidad. Ya sea que estés buscando un clásico delicioso o una creación innovadora, en BURGER FACTORY tenemos algo para todos los gustos. ¡Ven y disfruta de un ambiente acogedor, un servicio excepcional y, por supuesto, las hamburguesas más jugosas y sabrosas de la ciudad! ¡Te esperamos para compartir momentos deliciosos y memorables!</p>
+                        <ul style={{ listStyleType: 'none' }}>    
                             <li>
-                                <strong>Variedad de sabores:</strong> Desde los sabores tradicionales hasta colaboraciones con las mejores series.
+                                <strong>Conoce nuestra historia</strong> <p>En un rincón animado de la ciudad, dos amigos decidieron convertir su amor por las hamburguesas en un sueño hecho realidad: **BURGER FACTORY**. Con cada bocado, compartían su pasión por la comida reconfortante y la buena compañía, convirtiendo su pequeño local en el lugar favorito de la comunidad para disfrutar de hamburguesas deliciosas y momentos inolvidables.</p>
                             </li>
                             <li>
-                                <strong>Calidad superior:</strong> La hamburguesa de mayor calidad con los productos de mayor calidad.
+                                <strong>Visita nuestra comunidad</strong> <p>Vista nuestras redes sociales para estar al tanto de los post y las mejores.</p>
                             </li>
-                            
                         </ul>
                     </div>
+
                 </Col>
             </Row>
         </Container>
