@@ -14,9 +14,11 @@ const Main = () => {
         <Container className="col-8 text-white">
             <Row className="justify-content-center">
                 <Col>
+                <li>
                 <h1 className="text-center text-e6110a">Bienvenido a Burguer Factory</h1>
+                </li>
                 <div className="text-center">
-                        <img src="https://us.123rf.com/450wm/angelp/angelp1610/angelp161000138/63952894-hamburguesa-icono-fondo-naranja-con-negro-ilustración-del-vector.jpg" alt="Il Forno Magico" style={{ width: '450px', height: '450px' }} />
+                        <img src="https://cdn-icons-png.freepik.com/512/7763/7763590.png?ga=GA1.1.1025787723.1713711527" alt="Burguer Factory" style={{ width: '450px', height: '450px' }} />
                     </div>
                     
                     <Carousel>

@@ -1,27 +1,27 @@
 body {
-    background-color: #ee8b2e;
+    background-color: #fd8c21;
 }
 
 .custom-header {
-    background-color: #3b3b3b;
+    background-color: #f5cd1d;
   }
   
   .feather-icon-custom {
-    color: #e6110a;
+    color: #000000;
   }
   
   .nav-link-custom {
-    color: #e6110a !important;
+    color: #000000 !important;
   }
 
   .text-e6110a {
-    color: #e6110a;
+    color: #000000;
   }
   
   .btn-e6110a {
-    background-color: #e6110a;
-    border-color: #e6110a;
-    color: white; /* Asegúrate de que el texto sea visible */
+    background-color: #f5cd1d;
+    border-color: #000000;
+    color: #fd8c21; /* Asegúrate de que el texto sea visible */
   }
   
   .btn-e6110a:hover {
@@ -30,9 +30,9 @@ body {
   }
   
   .footer-custom {
-    background-color: #3b3b3b;
+    background-color: #f5cd1d;
 }
 
 .text-white {
-  color: #f8f8f8;
+  color: #000000;
 }
